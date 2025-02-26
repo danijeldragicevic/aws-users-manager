@@ -1,0 +1,14 @@
+[
+  {
+    "userName": "john_doe",
+    "userId": "AID12345",
+    "mfaEnabled": true,
+    "groups": ["admins"]
+  },
+  {
+    "userName": "jane_smith",
+    "userId": "AID67890",
+    "mfaEnabled": false,
+    "groups": ["developers"]
+  }
+]

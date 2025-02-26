@@ -1,0 +1,19 @@
+# Spring application name
+spring.application.name: aws-users-manager
+
+# Server port
+server.port: 8080
+
+# AWS credentials profile (Used by DefaultCredentialsProvider)
+# This profile must be configured in ~/.aws/credentials using `aws configure`
+aws.profile: default
+
+# Logging level
+logging.level.org.springframework: INFO
+logging.level.com.example: DEBUG
+
+# Enable throwing NoHandlerFoundException for non-existing endpoints
+spring.mvc.throw-exception-if-no-handler-found: true
+
+# Disable default resource mappings
+spring.web.resources.add-mappings: false
