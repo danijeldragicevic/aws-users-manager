@@ -8,7 +8,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>aws-users-app</name>
+    <name>aws-users-manager</name>
 
     <!-- 🔹 Inherit Spring Boot dependencies -->
     <parent>
